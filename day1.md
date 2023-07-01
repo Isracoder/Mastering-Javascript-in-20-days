@@ -16,7 +16,7 @@ The DOM stands for the document object model and represents all the html element
 
 ### Coding exercises 💻
 1. Building a function that converts from celsius to fahrenheit , [fcc link](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/convert-celsius-to-fahrenheit)
-```
+```javascript
   function convertCtoF(celsius) {
     let fahrenheit = celsius * (9/5) + 32 ;
     return fahrenheit;
@@ -24,7 +24,8 @@ The DOM stands for the document object model and represents all the html element
   convertCtoF(30);
 ```
 2. [Augmented multiplication](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/compound-assignment-with-augmented-multiplication)
- ``` let a = 5;
+ ```javascript
+let a = 5;
 let b = 12;
 let c = 4.6;
 
@@ -34,19 +35,19 @@ b*=3;
 c*= 10;
 ```
 3. [concatenating strings with the += sign](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/concatenating-strings-with-the-plus-equals-operator)
-```
+```javascript
    let myStr = "This is the first sentence." ;
   myStr += " This is the second sentence." ;
 ```
 4. [Use bracket notation to find the nth to last character](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/use-bracket-notation-to-find-the-nth-to-last-character-in-a-string)
-```
+```javascript
 const lastName = "Lovelace";
 
 // Only change code below this line
 const secondToLastLetterOfLastName = lastName[lastName.length-2]; // finding the second-to-last character
  ```
 5. [profile lookup](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/profile-lookup)
-```
+```javascript
 
 const contacts = [
   {
@@ -88,7 +89,7 @@ function lookUpProfile(name, prop) {
 lookUpProfile("Akira", "likes");
 ```
 6. [copy array items using slice()](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-data-structures/copy-array-items-using-slice)
-```
+```javascript
 function forecast(arr) {
   return arr.slice(2 , 4);
 }
@@ -96,7 +97,7 @@ function forecast(arr) {
 console.log(forecast(['cold', 'rainy', 'warm', 'sunny', 'cool', 'thunderstorms']));
 ```
 7. [combine arrays with the spread operator](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-data-structures/combine-arrays-with-the-spread-operator)
-```
+```javascript
 function spreadOut() {
   let fragment = ['to', 'code'];
   let sentence = ['learning' , ...fragment , 'is' ,'fun']; 
@@ -105,13 +106,13 @@ function spreadOut() {
 console.log(spreadOut());
 ```
 8. [return a value from a function with return](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/return-a-value-from-a-function-with-return)
-```
+```javascript
 function timesFive(num){
   return num*5 ;
 }
 ```
 9. [global scope and functions](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/global-scope-and-functions)
-```
+```javascript
 let myGlobal = 10 ;
 
 function fun1() {
@@ -131,7 +132,7 @@ function fun2() {
 }
 ```
 10. [local scope and functions](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/local-scope-and-functions)
-```
+```javascript
 function myLocalScope() {
   let myVar = 3 ;
   console.log('inside myLocalScope', myVar);
@@ -142,7 +143,7 @@ myLocalScope();
 console.log('outside myLocalScope', myVar);
 ```
 11. [Global vs local scope in functions](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/global-vs--local-scope-in-functions)
-```
+```javascript
 // Setup
 const outerWear = "T-Shirt";
 
@@ -157,7 +158,7 @@ myOutfit();
 ```
 
 12. [stand in line](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/stand-in-line)
-```
+```javascript
 function nextInLine(arr, item) {
   testArr = arr.push(item);
   let removed = arr[0] ;
