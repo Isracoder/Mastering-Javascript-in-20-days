@@ -7,7 +7,7 @@ The DOM stands for the document object model and represents all the html element
 &emsp;Then I learned about strings and the different methods used with them. Bracket notations is used to access the characters of the string which isn't unique to javascript however there are other useful built-in functions such as .includes , indexOf , etc which make looking for substrings and processings strings easier.
 
 ### Coding exercise 💻
-The coding challenge I completed today is from the fcc website and the task is to build a function that converts from celsius to fahrenheit 
+The coding challenge I completed today is from the fcc website and the task is to build a function that converts from [celsius to fahrenheit ](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/convert-celsius-to-fahrenheit)
 ```
   function convertCtoF(celsius) {
     let fahrenheit = celsius * (9/5) + 32 ;
