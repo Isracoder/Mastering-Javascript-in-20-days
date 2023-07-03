@@ -1,0 +1,87 @@
+* {
+	padding: 0px;
+	box-sizing: border-box;
+	margin: 0px;
+}
+
+body {
+	background-color: rgb(66, 66, 66);
+	font-family: "Comic Sans MS";
+	/* letter-spacing: 0.2rem; */
+	/* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+
+.title {
+	color: rgb(43, 141, 177);
+	-webkit-text-stroke: 0.03em limegreen;
+	font-size: 3.2em;
+	text-align: center;
+	margin: 40px;
+}
+#characterList {
+	margin-top: 3%;
+}
+.characterInfo {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.characterInfo > li {
+	list-style: none;
+	/* border: 1px solid yellow; */
+	width: 20%;
+}
+
+.characterInfo > ul {
+	/* border: 1px solid blue; */
+	height: min-content;
+}
+ul {
+	list-style: none;
+}
+.categories {
+	font-size: 1.3rem;
+	font-weight: bolder;
+}
+.imgSpan {
+	/* border: 1px solid white; */
+	width: 15%;
+	display: flex;
+	justify-content: center;
+}
+.characterRow {
+	/* border: 1px solid purple; */
+	height: min-content;
+}
+img {
+	height: 100%;
+	width: 100%;
+	/* border: 2px solid rgb(43, 141, 177); */
+	border: 2px solid rgb(50, 181, 50);
+	border-radius: 50%;
+}
+h2 {
+	color: rgb(223, 208, 188);
+	text-align: center;
+}
+li {
+	color: rgb(223, 208, 188);
+	/* border: 1px solid blue; */
+	word-wrap: break-word;
+	margin: 2%;
+	padding: 1%;
+}
+.characterRow {
+	border: 1px dotted rgba(255, 255, 255, 0.658);
+	box-shadow: 3px 2px rgb(131, 141, 141);
+}
+
+.characterInfo > li {
+	/* border: 1px solid yellow; */
+	/* max-width: min-content; */
+	width: 20%;
+	min-width: 10%;
+	height: max-content;
+	text-align: center;
+	font-size: 1em;
+}
