@@ -19,3 +19,4 @@ This is a challenge to learn and master Javascript in 20 days or less 🌝 . My 
 - [Day 2](https://github.com/Isracoder/Mastering-Javascript-in-20-days/blob/main/day2.md)
 - [Day 3](https://github.com/Isracoder/Mastering-Javascript-in-20-days/blob/main/day3.md)
 - [Day 4](https://github.com/Isracoder/Mastering-Javascript-in-20-days/blob/main/day4.md)
+- [Day 5](https://github.com/Isracoder/Mastering-Javascript-in-20-days/blob/main/day5.md)
